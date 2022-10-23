@@ -1,0 +1,6 @@
+com/chinese/poem/controller/TestController.class
+com/chinese/poem/processor/PoemProcessor.class
+com/chinese/poem/repository/PoemRepository.class
+com/chinese/poem/model/PoemModel.class
+com/chinese/poem/PoemApplication.class
+com/chinese/poem/controller/PoemController.class
