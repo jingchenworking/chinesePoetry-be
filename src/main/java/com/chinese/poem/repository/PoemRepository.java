@@ -14,13 +14,6 @@ public interface PoemRepository extends JpaRepository<PoemModel, String> {
 
     PoemModel queryById(String id);
 
-//    @Query(nativeQuery = true,
-//            value = "SELECT * " +
-//                    " FROM poems " +
-//                    " where title order by id desc limit 30"
-//    )
-//    List<PoemModel> queryByTitle(String title);
-
     List<PoemModel> findByTitleContaining(String title);
 
     List<PoemModel> findByAuthorContaining(String author);

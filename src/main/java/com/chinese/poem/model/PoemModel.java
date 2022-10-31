@@ -14,7 +14,7 @@ public class PoemModel {
     private String id;
 
     @Column(name = "ispost")
-    private char isPost;
+    private String isPost;
 
     private String title;
 
